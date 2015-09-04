@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/btowns/vms/centos","disabled":false},"/tmp/vagrant-puppet/manifests-7be273a620460029cd7ac9e4ccaddfbe":{"owner":"root","guestpath":"/tmp/vagrant-puppet/manifests-7be273a620460029cd7ac9e4ccaddfbe","hostpath":"/Users/btowns/.vagrant.d/boxes/nike-vagrant-centos6-20150212.boxv/0/virtualbox","disabled":false}}}

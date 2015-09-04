@@ -1,0 +1,10 @@
+- hosts: all
+  remote_user: a.b2cdev
+  sudo: no
+  vars:
+    - cmd: "test.sh"
+  tasks: 
+    - name: diggedy doo
+      shell: /home/a.b2cdev/"{{cmd}}"
+      register: hello
+    - debug: msg="{{hello.stdout}}"

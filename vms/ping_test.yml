@@ -1,0 +1,5 @@
+- hosts: default 
+  gather_facts: no
+  tasks: 
+    - name: ensure listed packages are installed on destination
+      ping: 
