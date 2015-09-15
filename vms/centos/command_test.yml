@@ -1,0 +1,6 @@
+- hosts: all
+  remote_user: a.b2cdev
+  sudo: yes
+  tasks: 
+    - name: test ls
+      command: ls /

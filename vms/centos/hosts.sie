@@ -1,0 +1,4 @@
+[vagrant]
+# shell.nikedev.com ansible_python_interpreter=/cust/home/mlind4/ansiblepy/bin/python
+127.0.0.1 ansible_ssh_port=2222 ansible_ssh_private_key_file=/Users/btowns/.vagrant.d/boxes/nike-vagrant-centos6-20150212.boxv/0/virtualbox/vagrant-key ansible_ssh_user=a.b2cdev
+
