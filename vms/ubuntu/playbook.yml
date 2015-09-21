@@ -11,6 +11,7 @@
       apt: name=php5 state=present
     - name: install git
       apt: name=git state=present
+    - command: /bin/rm -fr /var/www/html/test
     - git: repo=https://github.com/diver-gent/webtest.git
         dest=/var/www/html/test
 
